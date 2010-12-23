@@ -1,0 +1,13 @@
+Debian initscript for tracd.
+
+ 1. Save the files under the same structure of this repository:
+    - /etc/init.d/tracd
+    - /etc/default/tracd
+
+ 2. Configure the default settings file:
+    - /etc/default/tracd
+
+ 3. Manage the daemon:
+    - /etc/init.d/tracd start
+    - /etc/init.d/tracd stop
+    - /etc/init.d/tracd restart
