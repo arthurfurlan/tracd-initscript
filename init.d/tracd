@@ -33,7 +33,7 @@ SCRIPTNAME=/etc/init.d/$NAME
 . /lib/lsb/init-functions
 
 # Default configuration for daemon
-DAEMON_ARGS="--port ${TRACD_PORT} --hostname ${TRACD_ADDR} -e ${TRACD_PARENTDIR}"
+DAEMON_ARGS="--port ${TRACD_PORT} --hostname ${TRACD_ADDR} -e ${TRACD_PARENTDIR} ${TRACD_EXTRA_OPTS}"
 
 do_start()
 {
