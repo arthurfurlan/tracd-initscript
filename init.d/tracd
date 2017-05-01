@@ -12,6 +12,9 @@
 
 # Author: Arthur Furlan <afurlan@afurlan.org>
 
+# Skip systemd redirect.
+_SYSTEMCTL_SKIP_REDIRECT=OHYES
+
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 DESC="tracd standalone server"
 NAME=tracd
